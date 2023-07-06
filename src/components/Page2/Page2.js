@@ -36,23 +36,23 @@ const Page2 = () => {
     <div className='h-[100vh] w-[67px]'>
       <div className='side border-white border-l border-r font-[600] md:text-[21px] text-[10px] text-white whitespace-nowrap'>
         <div className='top' ref={top}>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
         </div>
         <div ref={bottom}>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
-          <span>2022 PORTFOLIO</span>
+          <span>2023 PORTFOLIO</span>
           <span>ANURAG MAGAR</span>
         </div>
       </div>

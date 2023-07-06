@@ -1,5 +1,4 @@
 import React from "react";
-import "../CustomMaterial";
 import './Page4.css'
 
 const Page4 = () => {

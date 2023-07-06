@@ -32,7 +32,7 @@ const Page3 = () => {
             <span className='italic'>Hey!</span> I'm Anurag,
           </h1>
           <h1>
-            a eighteen years <span className='italic'>old</span>
+            a nineteen years <span className='italic'>old</span>
           </h1>
           <h1 className='text2'>
             full-stack developer. Currently

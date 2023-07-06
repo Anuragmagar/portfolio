@@ -20,7 +20,6 @@
 .heading h2 {
   font-weight: 600;
   font-size: 30px;
-  mix-blend-mode: difference;
   line-height: 1;
 }
 .heading {
@@ -49,7 +48,7 @@
   .heading h2 {
     font-weight: 600;
     font-size: 75px;
-    mix-blend-mode: difference;
+
     line-height: 1;
   }
 }
@@ -57,7 +56,6 @@
   .heading h2 {
     font-weight: 600;
     font-size: 6rem;
-    mix-blend-mode: difference;
     line-height: 1;
   }
 }

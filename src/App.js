@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import Page1 from './components/page1/Page1';
 import Page2 from './components/Page2/Page2';
@@ -9,6 +9,7 @@ import Page4 from './components/Page4/Page4';
 import Page5 from './components/Page5/Page5';
 import Page6 from './components/Page6/Page6';
 import { BiMenuAltRight } from 'react-icons/bi'
+import PageLoader from './components/Pageloader/PageLoader';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -163,7 +164,7 @@ function App() {
 
   return (
     <>
-      {/* navbar */}
+      <PageLoader />
       <div className='navbar flex justify-between px-3 md:px-10 py-3 border-b fixed w-[100%] bg-black z-[9999]'>
         <p className='cursor-pointer'>anuragmagar</p>
         <a href='mailto:eanush.magar@gmail.com' ref={avail} className='sm:flex whitespace-nowrap px-5 py-[2px] w-[20rem] overflow-hidden uppercase border border-white rounded-xl hover:border-[#bfff07] hidden'>
@@ -192,7 +193,7 @@ function App() {
           </ul>
           <ul className='flex md:hidden'>
             <li>
-              <BiMenuAltRight size={20}/>
+              <BiMenuAltRight size={20} />
             </li>
           </ul>
         </div>

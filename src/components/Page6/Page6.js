@@ -49,7 +49,7 @@ const Page6 = () => {
                     </div>
                 </div>
                 <div className='md:flex absolute right-0 z-[-1] mr-[74px] bottom-0 pb-[20px] hidden'>
-                    <video width="100" autoPlay={true} loop>
+                    <video width="100" autoPlay loop muted>
                         <source src="flag.mp4" type="video/mp4" />
                         Your browser does not support HTML video.
                     </video>
