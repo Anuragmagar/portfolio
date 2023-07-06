@@ -1,0 +1,37 @@
+.contact h1 {
+  font-size: 47px;
+  text-align: center;
+  line-height: 0.7;
+  letter-spacing: -4px;
+  font-weight: 600;
+}
+
+.cont_fot {
+  position: absolute;
+  bottom: 0;
+}
+
+.cont_fot .flex {
+  padding-bottom: 20px;
+}
+.contact h1 span {
+  display: inline-block;
+}
+
+.fon {
+  font-family: "Playfair Display", sans-serif;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* responsive medias */
+@media (min-width: 768px) {
+  .contact h1 {
+    font-size: 103px;
+  }
+}
+@media (min-width: 1000px) {
+  .contact h1 {
+    font-size: 180px;
+  }
+}

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.webgl {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: difference;
+  z-index: -1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* new */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.section {
+  position: relative;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   min-height: 100vh;
+  /* width: 100vw; */
+  /* flex: 0 0 100vw; */
+}
+.section-gray {
+  background: gray;
+}
+.section-lightblue {
+  background: lightblue;
+}
+.horizontal-sections {
+  position: relative;
+  overflow: hidden;
+}
+.pin-wrap,
+.animation-wrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.horizontal-sections1 {
+  position: relative;
+  overflow: hidden;
+}
+.pin-wrap1,
+.animation-wrap1 {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select {
+  font-weight: 500;
+}
+.select_work {
+  font-family: "Playfair Display", sans-serif;
 }

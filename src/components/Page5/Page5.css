@@ -1,0 +1,21 @@
+.bot {
+  position: absolute;
+  bottom: 0;
+  font-size: 35px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.bot span {
+  margin-left: 1rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.feat div {
+  margin-right: 3rem;
+}
+
+.personality{
+  font-size: 17px;
+  font-weight: 400;
+}

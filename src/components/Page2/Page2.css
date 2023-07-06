@@ -1,0 +1,19 @@
+.side{
+    position: absolute;
+    left: 0;
+    
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.top{
+    transform: rotate(180deg);
+}
+
+.side span{
+    margin: .5rem 0;
+}
+
+.side span:nth-child(odd) {
+    color: #bfff07;
+}
